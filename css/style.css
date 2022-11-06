@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -10,13 +14,18 @@ header{
     justify-content: space-between;
     padding: 5px;
     text-align: center;
-    color: white;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding: 15px 10% 15px;
+
 }
 
 .logo {
-    font-size: large;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .no-decoration {
@@ -27,4 +36,45 @@ header{
 .links a {
     font-size: small;
     padding-left: 15px;
+}
+
+.first-content{
+    display: flex;
+    padding: 50px 10% 50px;
+    gap: 30px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.first-content-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.first-content-left h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.first-content-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 5px 0px 15px;
+}
+
+.first-content-left btn {
+    background-color: #3882F6;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px 15px 5px;
+}
+
+.image-placeholder{
+    background-color: gray;
+    flex: 1;
+    display: absolute;
+    text-align: center;
+    vertical-align: middle;
 }
