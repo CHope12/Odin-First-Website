@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.logo {
+    font-size: large;
+}
+
+.no-decoration {
+    text-decoration: none;
+    color: white;
+}
+
+.links a {
+    font-size: small;
+    padding-left: 15px;
+}
