@@ -78,3 +78,33 @@ header{
     text-align: center;
     vertical-align: middle;
 }
+
+.second-content{
+    display:flex;
+    flex-direction: column;
+    padding: 30px 15% 30px;
+    text-align: center;
+}
+
+.second-content .header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
+.second-content .image-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.illustration {
+    border: solid;
+    width: 75%;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-width: 3px;
+    aspect-ratio: 1/1;
+}
