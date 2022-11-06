@@ -82,7 +82,7 @@ header{
 .second-content{
     display:flex;
     flex-direction: column;
-    padding: 30px 15% 30px;
+    padding: 30px 15% 75px;
     text-align: center;
 }
 
@@ -107,4 +107,22 @@ header{
     border-color: #3882F6;
     border-width: 3px;
     aspect-ratio: 1/1;
+}
+
+.third-content {
+    background-color: #E5E7EB;
+    padding: 75px 15% 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 0 0 10px 50px;
+}
+
+.quote-name{
+    font-size: 20px;
+    font-weight:bolder;
+    text-align: right;
 }
